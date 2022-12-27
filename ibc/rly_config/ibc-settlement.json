@@ -1,0 +1,18 @@
+{
+  "type": "cosmos",
+  "value": {
+    "key": "ibcrelayer",
+    "chain-id": "local-testnet",
+    "rpc-addr": "http://localhost:26657",
+    "grpc-addr": "",
+    "account-prefix": "dym",
+    "keyring-backend": "test",
+    "gas-adjustment": 1.5,
+    "gas-prices": "0.025dym",
+    "debug": true,
+    "timeout": "10s",
+    "output-format": "json",
+    "sign-mode": "direct"
+  }
+}
+

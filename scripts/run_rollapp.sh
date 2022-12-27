@@ -17,8 +17,7 @@ $EXECUTABLE start --dymint.aggregator \
   --dymint.block_batch_size 20 \
   --dymint.namespace_id "$NAMESPACE_ID" \
   --dymint.block_time 0.5s \
-  --rpc.laddr "tcp://0.0.0.0:26667" \
+  --rpc.laddr "tcp://$ROLLAPP_RPC" \
   --p2p.laddr "tcp://0.0.0.0:26666" \
   --grpc.address "0.0.0.0:9080" \
   --grpc-web.address "0.0.0.0:9081"
-

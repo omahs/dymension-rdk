@@ -1,0 +1,18 @@
+{
+  "type": "cosmos",
+  "value": {
+    "key": "ibcrelayer",
+    "chain-id": "rollapp",
+    "rpc-addr": "http://localhost:26667",
+    "grpc-addr": "",
+    "account-prefix": "rol",
+    "keyring-backend": "test",
+    "gas-adjustment": 1.5,
+    "gas-prices": "0.025rap",
+    "debug": true,
+    "timeout": "10s",
+    "output-format": "json",
+    "sign-mode": "direct"
+  }
+}
+
